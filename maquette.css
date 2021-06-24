@@ -18,7 +18,6 @@ nav{
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  align-items: flex-start;
   font-size: 1.2em;
   padding-top: 0.5em;
   padding-left: 0.5em;
@@ -37,12 +36,7 @@ nav a{
   text-decoration: none;
   align-items: center;
 }
-section{
-  width: 100%;
-  margin: 10px;
-  background-color: white;
-  display: flex;
-  border: white solid;
+h2{
   z-index: 10;
 }
 .fa-gem{
@@ -65,7 +59,7 @@ section{
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   padding-top: 10em;
@@ -83,7 +77,7 @@ section{
 }
 .button{
   cursor: pointer;
-  font-size: 15px;;
+  font-size: 15px;
   border: solid 1px;
   border-radius: 20px;
   padding: 5px 10px;
@@ -92,12 +86,41 @@ section{
 .btn1{
   color: white;
   background-color: cyan;
-  border-color: cyan
+  border-color: cyan;
 }
-.block{
-  margin: 30px;
+
+.section1{
+  width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.article{
+  display: flex;
   flex-direction: row;
+  background-color: white;
+  width: 80%;
+  height: 300px;
+  max-height: 300px;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
-.first{
-  flex-direction: row;
+.block-img{
+  max-width: 45%;
+  width: 45%;
+  height: 300px;
 }
+.article-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.article-container{
+  height: 100%;
+  width: 55%;
+  display: inline-block;
+}
+/* @media (max-width: 600px){
+
+} */
