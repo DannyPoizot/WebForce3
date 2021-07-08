@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -10;
+}
+
+.square{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  position: absolute;
+}
+
+.commands {
+  text-align: center;
+  border: black solid 1px;
+  padding: 20px;
+  z-index: 10;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}

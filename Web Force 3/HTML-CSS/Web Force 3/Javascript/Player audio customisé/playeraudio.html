@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/playeraudio.css">
+    <title>Player Audio Custom</title>
+  </head>
+  <body>
+    <h1>Un player audio customisé !</h1>
+
+    <audio id="track" class="player-source" src="audio/slaughter-to-prevail-baba-yaga-official-music-video.mp3" controls></audio>
+
+    <div class="custom" id="player">
+      <h2>Baba Yaga</h2>
+      <h3>Slaughter To Prevail</h3>
+      <span id="current">00:00</span>
+      <span id="total"></span>
+      <button  class="player-audio" type="button" name="button"><i class="fas fa-2x fa-play"></i></button>
+      <progress class="player-progress" value="0" max="100"></progress>
+      <button type="button" name="button"><i class="fas fa-2x fa-volume-up"></i></button>
+    </div>
+    <script src="js/class.js" charset="utf-8"></script>
+    <!-- <script src="js/playeraudio.js" charset="utf-8"></script> -->
+  </body>
+</html>
